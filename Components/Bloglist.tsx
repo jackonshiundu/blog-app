@@ -17,7 +17,7 @@ function Bloglist({ posts }: Props) {
             <div className="flex flex-col md:flex-row flex-wrap group cursor-pointer">
               <div className="relative w-full  mx-aut0 h-80 drop-shadow-lg group-hover:scale-105 transition-transform duration-200 overflow-hidden">
                 <img
-                  className="object-cover object-left lg:object-center"
+                  className="object-cover object-left w-20 h-20 lg:object-center"
                   src={urlFor(post.mainImage).url()}
                   alt={post.title}
                 />
