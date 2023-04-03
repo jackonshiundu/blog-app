@@ -1,3 +1,4 @@
+'use client';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -8,7 +9,7 @@ function Header() {
         <Link href="/">
           <div className="rounded-full w-10 h-10 md:w-16 md:h-16 overflow-hidden">
             <img
-              className="object-cover w-10 h-10 rounded-full"
+              className="object-cover"
               src="https://cdn.sanity.io/images/u5zsoy4b/production/78a3f23b060d7514bee8dacd1b6d5e4b21802824-2688x4032.jpg"
               alt="Logo"
             />
