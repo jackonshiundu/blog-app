@@ -7,11 +7,10 @@ function Header() {
       <div className="flex items-center space-x-2">
         <Link href="/">
           <div className="rounded-full w-10 h-10 md:w-16 md:h-16 overflow-hidden">
-            <Image
+            <img
               className="object-cover"
               src="https://cdn.sanity.io/images/u5zsoy4b/production/78a3f23b060d7514bee8dacd1b6d5e4b21802824-2688x4032.jpg"
               alt="Logo"
-              fill
             />
           </div>
         </Link>
