@@ -16,11 +16,10 @@ function Bloglist({ posts }: Props) {
           <ClientsideRoute key={post._id} route={`/posts/${post.slug.current}`}>
             <div className="flex flex-col md:flex-row flex-wrap group cursor-pointer">
               <div className="relative w-full  mx-aut0 h-80 drop-shadow-lg group-hover:scale-105 transition-transform duration-200 overflow-hidden">
-                <Image
+                <img
                   className="object-cover object-left lg:object-center"
                   src={urlFor(post.mainImage).url()}
                   alt={post.title}
-                  fill
                 />
                 <div className="absolute bottom-0 w-full bg-opacity-20 bg-black background-blur-lg rounded drop-shadow-lg text-white p-5 flex justify-between">
                   <div>
