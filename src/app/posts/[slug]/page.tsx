@@ -59,10 +59,11 @@ async function page({ params: { slug } }: Props) {
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-16 h-16 overflow-hidden  rounded-full">
-                  <img
+                  <Image
                     className="object-cover "
                     src={urlFor(post.author.image).url()}
                     alt={post.author.name}
+                    fill
                   />
                 </div>
                 <div className="w-64">
