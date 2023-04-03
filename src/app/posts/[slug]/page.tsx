@@ -10,7 +10,6 @@ type Props = {
     slug: string;
   };
 };
-export const revalidate = 60;
 export async function generateStaticParams() {
   const query = groq`*[_type=='post']{
     slug
